@@ -51,7 +51,7 @@ public class Model
 			Food f2 = this.foods.get(a.getFoodCode2());
 			if(f1 != null && f2 != null)
 				Graphs.addEdgeWithVertices(this.grafo, f1, f2, a.getAvg());
-		}
+		} 
 	}
 
 	public ArrayList<Food> getFoods()
